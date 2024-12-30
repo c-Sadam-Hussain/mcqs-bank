@@ -1,0 +1,517 @@
+/*table-default-style - start*/
+.table-default-style{
+    border-collapse: collapse !important;  
+    font-size:1em;
+    margin-top:10px;
+    max-width:900px; 
+}
+
+.table-default-style td, .table-default-style th, .table-default-style td rowspan {
+    border: solid 1px black;
+}
+
+.table-default-style *{
+	-webkit-transform:none !important;
+}
+
+.table-default-style th,.table-default-style td {
+    padding:5px !important;
+}
+
+.table-default-style p {
+    padding:0px !important;
+    margin:0px !important;
+}
+
+.table-default-style ul, .table-default-style ol
+{
+    padding-left: 20px !important;
+    margin: 0px !important;
+}
+
+.table-default-style ul ul, .table-default-style ul ol, .table-default-style ol ol, .table-default-style ol ul
+{       
+       padding-left: 20px !important;       
+       margin: 0px !important;   
+}
+/*table-default-style - end*/
+
+/*table-No-Border - start*/
+.table-No-Border td, .table-No-Border th, .table-No-Border td rowspan {
+    border: none;
+}
+/*table-No-Border - end*/
+
+/*table-header-footer-style - start*/
+.table-header-footer-style tr:first-child{
+    font-size:1.2em;
+    font-weight:600;
+}
+
+.table-header-footer-style tr:first-child strong{
+    font-weight:600;
+}
+
+.table-header-footer-style tr:last-child td{
+    font-size: 0.9em !important;
+    border:none;
+}
+/*table-header-footer-style - end*/
+
+/*table-header-subheader-footer-style - start*/
+.table-header-subheader-footer-style tr:nth-child(2) {
+    font-size:1em;
+    font-weight:600;
+}
+
+.table-header-subheader-footer-style tr:nth-child(2) strong{
+    font-weight:600;
+}
+/*table-header-subheader-footer-style - end*/
+
+/* table-remove-header-borders-style - start */
+.table-remove-header-borders-style tr:first-child td {
+    border: none !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+}
+/* table-remove-header-borders-style - end */
+
+/*table-remove-footer-borders-style - start*/
+.table-remove-footer-borders-style tr:last-child td {
+    border: none !important;
+    font-size: 0.9em;
+}
+/*table-remove-footer-borders-style - end*/
+
+.psgexrpt {
+  background-color: lightgray;
+}
+
+.drsexrpt {
+  margin-bottom: 10px;
+  padding: 10px 10px 5px 20px;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #1b809e;
+  background-color: #F3F3F4;
+}
+
+/*table-custom-style - start*/
+.table-custom-style {
+    border-collapse: collapse;   
+    font-size:1em;
+}
+
+.table-custom-style, .table-custom-style td,  .table-custom-style th {
+    border: solid 1px !important;
+}
+
+.table-custom-style th,.table-custom-style td {
+    padding:5px !important;
+}
+
+.table-custom-style p {
+    padding:0px !important;
+    margin:0px !important;
+}
+/*table-custom-style - end*/
+
+/*table-custom-style2 - start*/
+.table-custom-style2 tr:first-child, .table-custom-style2 tr:last-child {
+    font-weight:bold;
+    font-size:1.1em;
+}
+/*table-custom-style2 - end*/
+
+/*table-footer-only-style - start*/
+.table-footer-only-style tr:first-child {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.table-footer-only-style tr:first-child strong {
+    font-weight: 600;
+}
+
+.table-footer-only-style tr:last-child td {
+    font-size: 0.9em !important;
+    border: none;
+}
+/*table-footer-only-style - end*/
+
+
+/*These styles used mainly in clients - Start*/
+#questionText table, #explanation table, #questionAbstract table,#hintBox table, .exhibit table, #collegeprepHintPopup table
+{
+    /* width:100%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#questionText table tr td, #explanation table tr td, #questionAbstract table tr td, #hintBox table tr td, .exhibit table tr td, #collegeprepHintPopup table tr td
+{
+    padding: 5px 10px;
+}
+/*
+#questionText ul, .tab-content-box ul, #questionAbstract ul, .collegeprep #hintBox ul
+{
+    padding-left: 20px;
+}
+#questionText ol, .tab-content-box ol, #questionAbstract ol, .collegeprep #hintBox ol
+{
+    padding-left: 20px;    
+}*/
+#questionText img, #explanation img, #questionAbstract img, .collegeprep #hintBox img, .exhibit img, #collegeprepHintPopup img
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media all and (max-width: 767px) {
+            .equation-scroll {
+                overflow-x:auto;
+                padding:5px;
+                background-color: #f1f1f5;
+		color:black !important;
+            }
+
+	.equation-scroll table{
+		color:black !important;
+            }
+	    
+}
+
+.symbol-column{
+        text-align:center;
+	width:25px;
+}
+/*These are used mainly in clients - End*/
+
+/*This class used for the message that is appended for the short explanation questions in NCLEX   - Start*/
+.short-explanation-msg{
+    margin-bottom:10px;
+    padding: 10px 10px 5px 20px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    border-left-color: #1b809e;
+    background-color: #F3F3F4;
+}
+/*This class used for the message that is appended for the short explanation questions in NCLEX   - End*/
+
+/* This class is to remove indentation before each paragraph and add space below each stanza in a poem for AP Lit -> Unit = Poetry and FRQ Types = Poetry Analysis START*/
+.para-ap-literature-styling{
+	margin-bottom: 10px;
+
+	text-indent:0em !important;
+
+}
+
+/* This class is to remove indentation before each paragraph and add space below each stanza in a poem for AP Lit -> Unit = Poetry and FRQ Types = Poetry Analysis END*/
+
+/*This class is used for the AP Lit Poetry Passages to give line breaks between Stanzas. This class will be a replacement of '.para-ap-literature-styling'. Used by CMS, LP and B2C Platforms. This new style name is for making it generic so that it can be used for other products as well. - Start*/
+.no-line-number-between-paragraphs {
+    margin-bottom: 10px;
+    text-indent: 0em !important;
+}
+/*This class is used for the AP Lit Poetry Passages to give line breaks between Stanzas. This class will be a replacement of '.para-ap-literature-styling'. Used by CMS, LP and B2C Platforms. This new style name is for making it generic so that it can be used for other products as well. - end*/
+
+.TableCellHighlight {
+    background-color: #e5e5e5;
+}
+
+/*This class used for the message that is shown on top of each question in ACT Reading   - Start*/
+.question-depends-on{
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+/*This class used for the message that is shown on top of each question in ACT Reading   - End*/
+
+/*This class used for the message that is shown on top of ACT English Passage   - Start*/
+.passage-header {
+   margin-top:10px;
+   margin-bottom: 10px;
+   padding: 5px 10px 5px 10px;
+   border: 1px solid black;
+   border-radius: 3px;
+   text-align: left;
+}
+/*This class used for the message that is shown on top of ACT English Passage   - END*/
+
+/*This class used to give a border around exhibit headers in AP English - Start*/
+.FRQ-Exhibit-Header {
+   border: solid 1px;
+   width:70%;
+   padding:5px;
+   margin:auto;
+   text-align:center;
+}
+/*This class used to give a border around exhibit headers in AP English - End*/
+
+/*This class used for the answer choice header tables which has border set as 1px. This adds padding to the whole table   - Start*/
+.AnswerChoiceTablePadding > tbody > tr > td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*This class used for the answer choice header tables which has border set as 1px. This adds padding to the whole table   - END*/
+
+/* class to underline column header in answer choices - Start*/
+.underlineColumnHeader{
+	border-bottom: solid 1px black;
+ }
+/* class to underline column header in answer choices - End*/
+
+/* Class to show calculator icon in Calculus & AP Stats - Start*/
+.calc-icon {
+	display: inline-block;
+}
+.calc-icon {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background-image: url("https://www.uworld.com/media/L43000.png");
+    margin-right: 10px;
+}
+/*.calc-icon:before {
+	padding-left: 2px;
+        padding-right: 10px;        
+        font-family: 'FontAwesome';
+        content: "\f1ec";
+}*/
+/* Class to show calculator icon in Calculus & AP Stats - End*/
+
+/* Class to show chem icon in AP Stats - Start*/
+.chem-icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url("https://www.uworld.com/media/L63517.png");
+    margin-right: 10px;
+}
+/* Class to show chem icon in AP Stats - End*/
+
+/* Use this class to show background color on USMLE Set Question's Header Message - Start*/
+#vignettedescriptor {
+    background-color: #c0c0c0;
+}
+/* Use this class to show background color on USMLE Set Question's Header Message - End*/
+
+/* Use this class to show border to the underline tag in SAT Writing - Start*/
+u.replaceUnderline{
+    text-decoration:none !important;
+    border-bottom:1px solid !important;
+}
+/* Use this class to show border to the underline tag in SAT Writing - End*/
+
+/* Using these classes to force left/right in TBS DRS questions - End*/
+.forceleft{
+margin-left: inherit !important;
+}
+
+.forceright{
+margin-right: inherit !important;
+}
+/* Using these classes to force left/right in TBS DRS questions - End*/
+
+.footnoteStyle {
+font-size: 85%;
+font-style:italic;
+}
+
+/*table styles used by CFA only - start*/
+/*table-CFA-default-style - start*/
+/*table-CFA-default-style is basically a copy of table-default-style, but it does not set any borders like table-default-style.*/
+.table-CFA-default-style {
+    border-collapse: collapse !important;
+    font-size: 1em;
+    margin-top: 10px;
+    max-width: 900px;
+}
+
+.table-CFA-default-style * {
+    -webkit-transform: none !important;
+}
+
+.table-CFA-default-style th, .table-CFA-default-style td {
+    padding: 5px !important;
+}
+
+.table-CFA-default-style p {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.table-CFA-default-style ul, .table-CFA-default-style ol {
+    padding-left: 20px !important;
+    margin: 0px !important;
+}
+
+.table-CFA-default-style ul ul, .table-CFA-default-style ul ol, .table-CFA-default-style ol ol, .table-CFA-default-style ol ul {
+    padding-left: 20px !important;
+    margin: 0px !important;
+}
+/*table-CFA-default-style - end*/
+
+/*table-CFA-Style-0 - start*/
+/*table-CFA-Style-0 is the shared by table-CFA-Style-1 and table-CFA-Style-2*/
+.table-CFA-Style-0 {
+    border-collapse: collapse;
+}
+
+.table-CFA-Style-0 > tbody > tr:first-child {
+    font-weight: bold;
+    border-top: 2pt solid black;
+    border-bottom: 2pt solid black;
+}
+
+.table-CFA-Style-0 > tbody > tr:last-child {
+    border-bottom: 2pt solid black;
+}
+
+.table-CFA-Style-0 > tbody > tr:first-child > td:not(:first-child) {
+    text-align: center;
+}
+
+.table-CFA-Style-0 > tbody > tr:not(:first-child) > td:not(:first-child) {
+    text-align: center;
+}
+
+.table-CFA-Style-0 > tbody > tr:not(:first-child) > td:first-child {
+    text-align: left;
+}
+/*table-CFA-Style-0 - end*/
+
+/*table-CFA-Style-1 - start*/
+.table-CFA-Style-1 > tbody > tr:first-child > td:first-child {
+    text-align: left;
+}
+/*table-CFA-Style-1 - end*/
+
+/*table-CFA-Style-2 - start*/
+.table-CFA-Style-2 > tbody > tr:first-child > td:first-child {
+    text-align: center;
+}
+/*table-CFA-Style-2 - end*/
+
+/*table-CFA-Style-3 - start*/
+.table-CFA-Style-3 {
+    border-collapse: collapse;
+}
+
+.table-CFA-Style-3 > tbody > tr:first-child {
+    border-top: 2pt solid black;
+}
+
+.table-CFA-Style-3 > tbody > tr:last-child {
+    border-bottom: 2pt solid black;
+}
+
+.table-CFA-Style-3 > tbody > tr > td:not(:first-child) {
+    text-align: center;
+}
+
+.table-CFA-Style-3 > tbody > tr > td:first-child {
+    text-align: left;
+}
+/*table-CFA-Style-3 - end*/
+
+/*table-CFA-Style-4 - start*/
+.table-CFA-Style-4 {
+    border-collapse: collapse;
+}
+
+.table-CFA-Style-4 > tbody > tr:first-child {
+    font-weight: bold;
+    border-top: 2pt solid black;
+}
+
+.table-CFA-Style-4 > tbody > tr:first-child > td:not(:first-child) {
+    border-bottom: 1pt solid black;
+}
+
+.table-CFA-Style-4 > tbody > tr:nth-child(2) {
+    font-weight: bold;
+    border-bottom: 2pt solid black;
+}
+
+.table-CFA-Style-4 > tbody > tr:last-child {
+    border-bottom: 2pt solid black;
+}
+
+.table-CFA-Style-4 > tbody > tr:first-child > td:not(:first-child) {
+    text-align: center;
+}
+
+.table-CFA-Style-4 > tbody > tr:not(:first-child) > td:not(:first-child) {
+    text-align: center;
+}
+
+.table-CFA-Style-4 > tbody > tr:not(:first-child) > td:first-child {
+    text-align: left;
+}
+
+.table-CFA-Style-4 > tbody > tr:first-child > td:first-child {
+    text-align: center;
+}
+/*table-CFA-Style-4 - end*/
+
+/*table-CFA-Style-5 - start*/
+.table-CFA-Style-5 {
+    border-collapse: collapse;
+}
+
+.table-CFA-Style-5 > tbody > tr:first-child {
+    font-weight: bold;
+    border-top: 2pt solid black;
+}
+
+.table-CFA-Style-5 > tbody > tr:first-child > td:not(:nth-child(-n+2)) {
+    border-bottom: 1pt solid black;
+}
+
+.table-CFA-Style-5 > tbody > tr:nth-child(2) {
+    font-weight: bold;
+    border-bottom: 2pt solid black;
+}
+
+.table-CFA-Style-5 > tbody > tr:last-child {
+    border-bottom: 2pt solid black;
+}
+
+.table-CFA-Style-5 > tbody > tr:first-child > td:not(:first-child) {
+    text-align: center;
+}
+
+.table-CFA-Style-5 > tbody > tr:not(:first-child) > td:not(:first-child) {
+    text-align: center;
+}
+
+.table-CFA-Style-5 > tbody > tr:not(:first-child) > td:first-child {
+    text-align: left;
+}
+
+.table-CFA-Style-5 > tbody > tr:first-child > td:first-child {
+    text-align: center;
+}
+/*table-CFA-Style-5 - end*/
+
+/*table styles used by CFA only - end*/
+
+/*iBank Highres Image Project - start*/
+.anschs_ekg_img {
+    max-width: 700px !important;
+}
+
+.anschs_non_ekg_img {
+    max-width: 300px !important;
+}
+
+.imgWidthHelper {
+    max-width: 700px !important;
+}
+/*iBank Highres Image Project - end*/
